@@ -1,0 +1,29 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+
+# FastAPI/Uvicorn logs
+*.log
+
+# Next.js build files
+my-helpdesk-ui/.next/
+my-helpdesk-ui/out/
+
+# Node modules
+my-helpdesk-ui/node_modules/
+
+# Local env files
+*.env
+my-helpdesk-ui/.env.local
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/

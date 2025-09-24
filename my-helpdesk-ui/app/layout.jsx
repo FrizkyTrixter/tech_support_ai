@@ -1,7 +1,10 @@
 // app/layout.jsx
 import './globals.css';
 
-export const metadata = { title: 'IT Helpdesk' };
+export const metadata = {
+  title: 'IT Helpdesk',
+  description: 'Helpdesk chat UI',
+};
 
 export default function RootLayout({ children }) {
   return (

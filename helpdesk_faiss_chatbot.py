@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer
 CSV_PATH = "grouped_conversations.csv"
 TOP_K = 3
 LLM_CONTEXT_LIMIT = 2000  # characters to feed to LLaMA
-OLLAMA_MODEL = "llama3"   # or "llama3:8b" / "llama3:70b" etc.
+OLLAMA_MODEL = "llama3.2:3b-instruct-q4_K_M"   # or "llama3:8b" / "llama3:70b" etc.
 
 # === Load Helpdesk Conversations ===
 df = pd.read_csv(CSV_PATH)
